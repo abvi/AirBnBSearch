@@ -1,7 +1,7 @@
 <?php
 $db_host = 'localhost';
-$db_user = 'bn_client';
-$db_pass = 'g0ldf1sh';
+$db_user = 'testclient';
+$db_pass = 'testpwd';
 $db_name = 'airbnb_TEST';
 
 error_reporting(E_ALL ^ E_NOTICE);
