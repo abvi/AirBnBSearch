@@ -10,3 +10,5 @@ Part 1 allows the user to enter a city name into a form, and retrieves a set of 
 ----------------------------------------------------------
 
 Part 2 stores the retrieved information in a database, and allows the user to query it by providing a city name, a start date and an end date. If information for the city has previously been stored in the database, the application will use that to display a list of properties that are free between the given start and end dates.
+
+Look in the connect_db.php file for database setup information.
