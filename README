@@ -1,0 +1,12 @@
+This project has two parts:
+
+Part 1 allows the user to enter a city name into a form, and retrieves a set of properties from AirBnB that are free for the next 7 days. The properties are displayed in a table of the following form:
+
+----------------------------------------------------------
+|              | 8/1 | 8/2 | 8/3 | 8/4 | 8/5 | 8/6 | 8/7 | 
+|  Property 1  |  x  |     |  x  |  x  |  x  |  x  |     |
+|  Property 2  |     |  x  |     |     |  x  |  x  |  x  |
+|  Property 3  |     |     |  x  |  x  |  x  |     |  x  |
+----------------------------------------------------------
+
+Part 2 stores the retrieved information in a database, and allows the user to query it by providing a city name, a start date and an end date. If information for the city has previously been stored in the database, the application will use that to display a list of properties that are free between the given start and end dates.
